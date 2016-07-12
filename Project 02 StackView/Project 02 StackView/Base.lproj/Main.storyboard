@@ -18,8 +18,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="r80-TU-Hkb">
-                                <rect key="frame" x="194" y="50" width="213" height="106"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="r80-TU-Hkb">
+                                <rect key="frame" x="194" y="70" width="213" height="74"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chi's World" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s2D-ef-ZYh">
                                         <rect key="frame" x="0.0" y="0.0" width="213" height="48"/>
@@ -28,7 +28,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Life is fine and enjoyable &lt;3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SkZ-AK-F2k">
-                                        <rect key="frame" x="0.0" y="58" width="213" height="48"/>
+                                        <rect key="frame" x="0.0" y="53" width="213" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
@@ -36,35 +36,44 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="gX6-1S-XFl">
-                                <rect key="frame" x="20" y="176" width="560" height="125"/>
+                                <rect key="frame" x="50" y="445" width="500" height="125"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_linkedin" translatesAutoresizingMaskIntoConstraints="NO" id="CXx-J9-Bph">
-                                        <rect key="frame" x="0.0" y="0.0" width="166.5" height="125"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="146.5" height="125"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="125" id="gxZ-k4-wYV"/>
                                         </constraints>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_fb" translatesAutoresizingMaskIntoConstraints="NO" id="0nW-6e-6Nw">
-                                        <rect key="frame" x="196.5" y="0.0" width="167" height="125"/>
+                                        <rect key="frame" x="176.5" y="0.0" width="147" height="125"/>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_github" translatesAutoresizingMaskIntoConstraints="NO" id="nKa-T1-MZ3">
-                                        <rect key="frame" x="393.5" y="0.0" width="166.5" height="125"/>
+                                        <rect key="frame" x="353.5" y="0.0" width="146.5" height="125"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="125" id="S19-6S-FyM"/>
                                         </constraints>
                                     </imageView>
                                 </subviews>
                             </stackView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="life" translatesAutoresizingMaskIntoConstraints="NO" id="wsU-cU-uSQ">
+                                <rect key="frame" x="20" y="164" width="560" height="261"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="gX6-1S-XFl" firstAttribute="top" secondItem="r80-TU-Hkb" secondAttribute="bottom" constant="20" id="Al5-VY-K4X">
+                            <constraint firstItem="r80-TU-Hkb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TlV-i7-UQA"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="wsU-cU-uSQ" secondAttribute="trailing" id="Umh-Vn-lXs"/>
+                            <constraint firstItem="wsU-cU-uSQ" firstAttribute="top" secondItem="r80-TU-Hkb" secondAttribute="bottom" constant="20" id="YPM-V0-QRX"/>
+                            <constraint firstItem="wsU-cU-uSQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="ake-1d-9TP"/>
+                            <constraint firstItem="gX6-1S-XFl" firstAttribute="top" secondItem="wsU-cU-uSQ" secondAttribute="bottom" constant="20" id="ctt-s8-XCV">
+                                <variation key="heightClass=regular-widthClass=regular" constant="20"/>
+                            </constraint>
+                            <constraint firstAttribute="trailingMargin" secondItem="gX6-1S-XFl" secondAttribute="trailing" constant="30" id="eFZ-5y-cA4"/>
+                            <constraint firstItem="r80-TU-Hkb" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="gnJ-l7-ayC"/>
+                            <constraint firstItem="gX6-1S-XFl" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="vPu-6x-aaK"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="gX6-1S-XFl" secondAttribute="bottom" constant="30" id="zNi-Ko-rBu">
                                 <variation key="heightClass=regular-widthClass=regular" constant="50"/>
                             </constraint>
-                            <constraint firstItem="r80-TU-Hkb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TlV-i7-UQA"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="gX6-1S-XFl" secondAttribute="trailing" id="eFZ-5y-cA4"/>
-                            <constraint firstItem="r80-TU-Hkb" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="gnJ-l7-ayC"/>
-                            <constraint firstItem="gX6-1S-XFl" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="vPu-6x-aaK"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -77,5 +86,6 @@
         <image name="ic_fb" width="128" height="128"/>
         <image name="ic_github" width="128" height="128"/>
         <image name="ic_linkedin" width="128" height="128"/>
+        <image name="life" width="640" height="480"/>
     </resources>
 </document>
