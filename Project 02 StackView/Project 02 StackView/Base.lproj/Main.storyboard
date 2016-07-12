@@ -38,22 +38,31 @@
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="gX6-1S-XFl">
                                 <rect key="frame" x="50" y="445" width="500" height="125"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_linkedin" translatesAutoresizingMaskIntoConstraints="NO" id="CXx-J9-Bph">
-                                        <rect key="frame" x="0.0" y="0.0" width="146.5" height="125"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="125" id="gxZ-k4-wYV"/>
-                                        </constraints>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_fb" translatesAutoresizingMaskIntoConstraints="NO" id="0nW-6e-6Nw">
-                                        <rect key="frame" x="176.5" y="0.0" width="147" height="125"/>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_github" translatesAutoresizingMaskIntoConstraints="NO" id="nKa-T1-MZ3">
-                                        <rect key="frame" x="353.5" y="0.0" width="146.5" height="125"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="125" id="S19-6S-FyM"/>
-                                        </constraints>
-                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5PP-8V-OLN">
+                                        <rect key="frame" x="0.0" y="0.0" width="147" height="125"/>
+                                        <state key="normal" image="ic_linkedin"/>
+                                        <connections>
+                                            <action selector="openLinkedInURL" destination="BYZ-38-t0r" eventType="touchUpInside" id="hXy-rh-goI"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sfW-26-vdZ">
+                                        <rect key="frame" x="177" y="0.0" width="147" height="125"/>
+                                        <state key="normal" title="Button" image="ic_fb"/>
+                                        <connections>
+                                            <action selector="openFacebookURL" destination="BYZ-38-t0r" eventType="touchUpInside" id="P3Z-qv-1Nt"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hc2-bo-uKM">
+                                        <rect key="frame" x="354" y="0.0" width="147" height="125"/>
+                                        <state key="normal" title="Button" image="ic_github"/>
+                                        <connections>
+                                            <action selector="openGithubURL" destination="BYZ-38-t0r" eventType="touchUpInside" id="kjc-a0-x66"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="125" id="Frp-58-s1h"/>
+                                </constraints>
                             </stackView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="life" translatesAutoresizingMaskIntoConstraints="NO" id="wsU-cU-uSQ">
                                 <rect key="frame" x="20" y="164" width="560" height="261"/>
@@ -79,7 +88,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="173" y="312"/>
+            <point key="canvasLocation" x="188" y="378"/>
         </scene>
     </scenes>
     <resources>
