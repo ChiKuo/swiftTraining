@@ -12,6 +12,8 @@
 		C2BE2D5C1D36411C00386C52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2BE2D5B1D36411C00386C52 /* Assets.xcassets */; };
 		C2BE2D5F1D36411C00386C52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2BE2D5D1D36411C00386C52 /* LaunchScreen.storyboard */; };
 		C2BE2D671D36429B00386C52 /* FoodTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BE2D661D36429B00386C52 /* FoodTableViewController.swift */; };
+		C2BE2D691D3765FC00386C52 /* FoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BE2D681D3765FC00386C52 /* FoodTableViewCell.swift */; };
+		C2BE2D6B1D37764F00386C52 /* CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BE2D6A1D37764F00386C52 /* CustomColors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		C2BE2D5E1D36411C00386C52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2BE2D601D36411C00386C52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2BE2D661D36429B00386C52 /* FoodTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodTableViewController.swift; sourceTree = "<group>"; };
+		C2BE2D681D3765FC00386C52 /* FoodTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodTableViewCell.swift; sourceTree = "<group>"; };
+		C2BE2D6A1D37764F00386C52 /* CustomColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomColors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				C2BE2D5D1D36411C00386C52 /* LaunchScreen.storyboard */,
 				C2BE2D601D36411C00386C52 /* Info.plist */,
 				C2BE2D661D36429B00386C52 /* FoodTableViewController.swift */,
+				C2BE2D681D3765FC00386C52 /* FoodTableViewCell.swift */,
+				C2BE2D6A1D37764F00386C52 /* CustomColors.swift */,
 			);
 			path = "Project 04 PrototypeCell";
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			files = (
 				C2BE2D551D36411C00386C52 /* AppDelegate.swift in Sources */,
 				C2BE2D671D36429B00386C52 /* FoodTableViewController.swift in Sources */,
+				C2BE2D6B1D37764F00386C52 /* CustomColors.swift in Sources */,
+				C2BE2D691D3765FC00386C52 /* FoodTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +296,7 @@
 				C2BE2D651D36411C00386C52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

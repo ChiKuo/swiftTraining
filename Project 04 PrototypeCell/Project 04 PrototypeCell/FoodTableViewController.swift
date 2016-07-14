@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 class FoodTableViewController: UITableViewController {
 
     override func viewDidLoad() {
@@ -44,10 +45,19 @@ class FoodTableViewController: UITableViewController {
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
         let cellIdentifier = "Cell"
-        let cell = tableView.dequeueReusableCellWithIdentifier(cellIdentifier, forIndexPath: indexPath)
+        let cell = tableView.dequeueReusableCellWithIdentifier(cellIdentifier, forIndexPath: indexPath) as! FoodTableViewCell
 
-        cell.textLabel?.text = foodNames[indexPath.row]
-        cell.imageView?.image = UIImage(named: foodImages[indexPath.row])
+        cell.nameLable?.text = foodNames[indexPath.row]
+        cell.photoImageView?.image = UIImage(named: foodImages[indexPath.row])
+        
+        if indexPath.row % 3 == 0 {
+            cell.backgroundColor = UIColor.turquoiseColor()
+        } else if indexPath.row % 3 == 1  {
+            cell.backgroundColor = UIColor.peterriverColor()
+        } else {
+            cell.backgroundColor = UIColor.sunflowerColor()
+        }
+       
 
         return cell
     }
