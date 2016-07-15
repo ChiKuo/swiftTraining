@@ -33,6 +33,8 @@ class SpotTableViewController: UITableViewController {
   
     var locationList = ["Beitou Dist.Taipei City","Xinyi Dist.Taipei City","Beitou Dist.Taipei City","Wanhua Dist.Taipei City","Shilin Dist.Taipei City","Zhongshan Dist.Taipei City","Datong Dist.TaipeiCity","Daan Dist.Taipei City","Beitou Dist.Taipei City"]
     
+    var isCheckList = [false,false,false,false,false,false,false,false,false]
+    
 
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
@@ -51,8 +53,55 @@ class SpotTableViewController: UITableViewController {
         cell.nameLabel?.text = spotList[indexPath.row]
         cell.locationLabel?.text = locationList[indexPath.row]
         cell.spotImage?.image = UIImage(named: spotImageList[indexPath.row])
-
+        cell.accessoryType = isCheckList[indexPath.row] ? .Checkmark :  .None
+        
         return cell
+    }
+    
+    // Call the function when click the cell
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        
+        // Create alert
+        let optionMenu = UIAlertController(title: nil,message: "What do you want to do ? ",preferredStyle: .ActionSheet)
+        
+        // Cancel action
+        let cancelAction = UIAlertAction(title: "Cancel", style: .Cancel, handler: nil)
+        optionMenu.addAction(cancelAction)
+
+        // Call action
+        let callActionHandler = {(action:UIAlertAction!) -> Void in
+            
+            // Show message alert
+            let alertMessage = UIAlertController(title: nil , message:  "Sorry, the call feature is not available yet . Please try later." , preferredStyle: .Alert)
+            alertMessage.addAction(UIAlertAction(title: "OK" , style: .Default ,handler: nil))
+            self.presentViewController(alertMessage, animated: true, completion: nil)
+        }
+        let callAction = UIAlertAction(title: "Call " + "123-000-\(indexPath.row)", style: .Default, handler: callActionHandler)
+        optionMenu.addAction(callAction)
+        
+        // Chcek action
+        let checkAction = UIAlertAction(title: "Check \(spotList[indexPath.row])", style: .Default, handler:  { (action: UIAlertAction!) -> Void in
+            
+            // Add accessory on cell
+            // accessoryType = .Checkmark / DetailButton / DetailDisclosureButton / DisclosureIndicator
+            let cell = tableView.cellForRowAtIndexPath(indexPath)
+        
+            if self.isCheckList[indexPath.row] {
+                cell?.accessoryType = .None
+                self.isCheckList[indexPath.row] = false
+            } else {
+                cell?.accessoryType = .Checkmark
+                self.isCheckList[indexPath.row] = true
+            }
+            
+            // TODO change image size
+            
+        })
+        optionMenu.addAction(checkAction)
+        
+        // Add acrion to alert & show on view        
+        self.presentViewController(optionMenu, animated: true, completion: nil)
+        
     }
  
 
