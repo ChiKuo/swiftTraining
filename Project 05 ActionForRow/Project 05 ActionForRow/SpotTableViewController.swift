@@ -112,8 +112,11 @@ class SpotTableViewController: UITableViewController {
         return true
     }
     */
-
     
+    
+    // MARK: - Table view edit action by default
+    
+    /*
     // Override to support editing the table view.
     override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
         
@@ -132,6 +135,42 @@ class SpotTableViewController: UITableViewController {
         } else if editingStyle == .Insert {
             // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
         }    
+    }
+ */
+    
+     // MARK: - Table view edit action by customize
+    
+    override func tableView(tableView: UITableView, editActionsForRowAtIndexPath indexPath: NSIndexPath) -> [UITableViewRowAction]? {
+        
+        
+        // Share button
+        let shareAction = UITableViewRowAction(style: .Default, title: "Share", handler: {
+            (action,indexPath) -> Void in
+            
+            let shartText = "Share !" + self.spotList[indexPath.row]
+            if let shartImage = UIImage(named: self.spotImageList[indexPath.row]){
+                
+                let activityViewController = UIActivityViewController(activityItems: [shartText,shartImage], applicationActivities: nil)
+                self.presentViewController(activityViewController, animated: true, completion: nil)
+            }
+        })
+        shareAction.backgroundColor = UIColor.blueColor()
+        
+        // Delete button
+        let deleteButton = UITableViewRowAction(style: .Default, title: "Delete", handler: {
+            (action,indexPath) -> Void in
+            
+            self.spotList.removeAtIndex(indexPath.row)
+            self.locationList.removeAtIndex(indexPath.row)
+            self.spotImageList.removeAtIndex(indexPath.row)
+            self.isCheckList.removeAtIndex(indexPath.row)
+            
+            tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
+        })
+        deleteButton.backgroundColor = UIColor.redColor()
+        
+        return [shareAction,deleteButton]
+        
     }
     
 
