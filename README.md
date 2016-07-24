@@ -1,9 +1,10 @@
 # swiftTraining
 A project to learn Swift .
 
-Project 06 NavigationAndSegue
-![image]( =268x)
+##### Project 06 NavigationAndSegue
+
 <img src="https://github.com/ChiKuo/swiftTraining/blob/master/Project%20Demo%20Image/Project%2006.gif" width="268">
+
 I learn how to :
 - Setup Navigation Controller
 - Use Segue to pass data to destination view controller
@@ -12,9 +13,10 @@ Resource:
 - Travrl Taipei 
 - http://www.taipeitravel.net:8080/frontsite/en/sceneryEnListAction.do?method=doFindAll&menuId=1030503
 
+##### Project 05 ActionForRow
 
-Project 05 ActionForRow
-![image](https://github.com/ChiKuo/swiftTraining/blob/master/Project%20Demo%20Image/Project%2005.gif)  
+<img src="https://github.com/ChiKuo/swiftTraining/blob/master/Project%20Demo%20Image/Project%2005.gif" width="268">
+
 I learn how to :
 - Use AlertController to show action item & message
 - Add accessory on TableView cells
@@ -24,29 +26,38 @@ I learn how to :
 Resource:
 - 
 
-Project 04 PrototypeCell
-![image](https://github.com/ChiKuo/swiftTraining/blob/master/Project%20Demo%20Image/Project%2004.gif)  
+##### Project 04 PrototypeCell
+
+<img src="https://github.com/ChiKuo/swiftTraining/blob/master/Project%20Demo%20Image/Project%2004.gif" width="268">
+ 
 I learn how to :
 - Use TableViewController to create a custom table
 - Defining Custom Colors
 
-Project 03 TableView
-![image](https://github.com/ChiKuo/swiftTraining/blob/master/Project%20Demo%20Image/Project%2003.gif)  
+##### Project 03 TableView
+
+<img src="https://github.com/ChiKuo/swiftTraining/blob/master/Project%20Demo%20Image/Project%2003.gif" width="268">
+ 
 I learn how to :
 - Use TableView to create a simple table
 - Add image to TableView cell
 
-Project 02 StackView
-![image](https://github.com/ChiKuo/swiftTraining/blob/master/Project%20Demo%20Image/Project%2002.gif)  
+##### Project 02 StackView
+
+<img src="https://github.com/ChiKuo/swiftTraining/blob/master/Project%20Demo%20Image/Project%2002.gif" width="268">
+ 
 I learn how to :
 - Use StackViews to create layouts of increasing complexity
 - Use different size image to support different size devices
 - Launch safari and open URL
 - Use the button with image
 
-Project 01 AutoLayout
-![image]() (https://github.com/ChiKuo/swiftTraining/blob/master/Project%20Demo%20Image/Project%2001-1.png) 
-![image]() (https://github.com/ChiKuo/swiftTraining/blob/master/Project%20Demo%20Image/Project%2001-2.png) 
+##### Project 01 AutoLayout
+
+<img src="https://github.com/ChiKuo/swiftTraining/blob/master/Project%20Demo%20Image/Project%2001-1.png" width="268">
+ 
+<img src="https://github.com/ChiKuo/swiftTraining/blob/master/Project%20Demo%20Image/Project%2001-2.png" width="220">
+
 I learn how to :
 - Build my first iOS app
 - Use storyboard to design UI
