@@ -2,7 +2,8 @@
 A project to learn Swift .
 
 Project 06 NavigationAndSegue
-![image](https://github.com/ChiKuo/swiftTraining/blob/master/Project%20Demo%20Image/Project%2006.gif =268x)
+![image]( =268x)
+<img src="https://github.com/ChiKuo/swiftTraining/blob/master/Project%20Demo%20Image/Project%2006.gif" width="268">
 I learn how to :
 - Setup Navigation Controller
 - Use Segue to pass data to destination view controller
