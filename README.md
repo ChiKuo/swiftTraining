@@ -2,13 +2,14 @@
 A project to learn Swift .
 
 Project 06 NavigationAndSegue
-![image](https://github.com/ChiKuo/swiftTraining/blob/master/Project%20Demo%20Image/Project%2006.gif)  
+![image](https://github.com/ChiKuo/swiftTraining/blob/master/Project%20Demo%20Image/Project%2006.gif =268x)
 I learn how to :
 - Setup Navigation Controller
 - Use Segue to pass data to destination view controller
+
 Resource:
-- Travrl Taipei <http://www.taipeitravel.net:8080/frontsite/en/sceneryEnListAction.do?method=doFindAll&menuId=1030503>
-http://www.taipeitravel.net:8080/frontsite/en/sceneryEnListAction.do?method=doFindAll&menuId=1030503
+- Travrl Taipei 
+- http://www.taipeitravel.net:8080/frontsite/en/sceneryEnListAction.do?method=doFindAll&menuId=1030503
 
 
 Project 05 ActionForRow
@@ -18,6 +19,7 @@ I learn how to :
 - Add accessory on TableView cells
 - Use TableViewRowAction to control row action
 - Use ActivityViewController to share a post on Facebook
+
 Resource:
 - 
 
