@@ -3,29 +3,13 @@ A project to learn Swift .
 
 ---
 
-#### Project 06 NavigationAndSegue
+### Project 06 NavigationAndSegue
 
 <img src="https://github.com/ChiKuo/swiftTraining/blob/master/Project%20Demo%20Image/Project%2006.gif" width="268">
 
 I learn how to :
 - Setup Navigation Controller
 - Use Segue to pass data to destination view controller
-
-Resource:
-- Travrl Taipei 
-- http://www.taipeitravel.net:8080/frontsite/en/sceneryEnListAction.do?method=doFindAll&menuId=1030503
-
----
-
-#### Project 05 ActionForRow
-
-<img src="https://github.com/ChiKuo/swiftTraining/blob/master/Project%20Demo%20Image/Project%2005.gif" width="268">
-
-I learn how to :
-- Use AlertController to show action item & message
-- Add accessory on TableView cells
-- Use TableViewRowAction to control row action
-- Use ActivityViewController to share a post on Facebook
 
 Resource:
 - Sample avatars for UI mockups
@@ -38,7 +22,23 @@ Resource:
 
 ---
 
-#### Project 04 PrototypeCell
+### Project 05 ActionForRow
+
+<img src="https://github.com/ChiKuo/swiftTraining/blob/master/Project%20Demo%20Image/Project%2005.gif" width="268">
+
+I learn how to :
+- Use AlertController to show action item & message
+- Add accessory on TableView cells
+- Use TableViewRowAction to control row action
+- Use ActivityViewController to share a post on Facebook
+
+Resource:
+- Travrl Taipei 
+- http://www.taipeitravel.net:8080/frontsite/en/sceneryEnListAction.do?method=doFindAll&menuId=1030503
+
+---
+
+### Project 04 PrototypeCell
 
 <img src="https://github.com/ChiKuo/swiftTraining/blob/master/Project%20Demo%20Image/Project%2004.gif" width="268">
  
@@ -48,7 +48,7 @@ I learn how to :
 
 ---
 
-#### Project 03 TableView
+### Project 03 TableView
 
 <img src="https://github.com/ChiKuo/swiftTraining/blob/master/Project%20Demo%20Image/Project%2003.gif" width="268">
  
@@ -58,7 +58,7 @@ I learn how to :
 
 ---
 
-#### Project 02 StackView
+### Project 02 StackView
 
 <img src="https://github.com/ChiKuo/swiftTraining/blob/master/Project%20Demo%20Image/Project%2002.gif" width="268">
  
@@ -70,11 +70,11 @@ I learn how to :
 
 ---
 
-#### Project 01 AutoLayout
+### Project 01 AutoLayout
 
 <img src="https://github.com/ChiKuo/swiftTraining/blob/master/Project%20Demo%20Image/Project%2001-1.png" width="268">
  
-<img src="https://github.com/ChiKuo/swiftTraining/blob/master/Project%20Demo%20Image/Project%2001-2.png" width="520">
+<img src="https://github.com/ChiKuo/swiftTraining/blob/master/Project%20Demo%20Image/Project%2001-2.png" width="1024">
 
 I learn how to :
 - Build my first iOS app
