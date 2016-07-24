@@ -1,7 +1,7 @@
 # swiftTraining
 A project to learn Swift .
 
-##### Project 06 NavigationAndSegue
+### Project 06 NavigationAndSegue
 
 <img src="https://github.com/ChiKuo/swiftTraining/blob/master/Project%20Demo%20Image/Project%2006.gif" width="268">
 
@@ -13,7 +13,7 @@ Resource:
 - Travrl Taipei 
 - http://www.taipeitravel.net:8080/frontsite/en/sceneryEnListAction.do?method=doFindAll&menuId=1030503
 
-##### Project 05 ActionForRow
+### Project 05 ActionForRow
 
 <img src="https://github.com/ChiKuo/swiftTraining/blob/master/Project%20Demo%20Image/Project%2005.gif" width="268">
 
@@ -24,9 +24,15 @@ I learn how to :
 - Use ActivityViewController to share a post on Facebook
 
 Resource:
-- 
+- Sample avatars for UI mockups
+- http://uifaces.com/
+- https://randomuser.me/
+- Random name generator
+- http://random-name-generator.info/random/?n=10&g=3&st=2
+- The social icon I use
+- https://thenounproject.com/romzicon/collection/social/?oq=social&cidx=1
 
-##### Project 04 PrototypeCell
+### Project 04 PrototypeCell
 
 <img src="https://github.com/ChiKuo/swiftTraining/blob/master/Project%20Demo%20Image/Project%2004.gif" width="268">
  
@@ -34,7 +40,7 @@ I learn how to :
 - Use TableViewController to create a custom table
 - Defining Custom Colors
 
-##### Project 03 TableView
+### Project 03 TableView
 
 <img src="https://github.com/ChiKuo/swiftTraining/blob/master/Project%20Demo%20Image/Project%2003.gif" width="268">
  
@@ -42,7 +48,7 @@ I learn how to :
 - Use TableView to create a simple table
 - Add image to TableView cell
 
-##### Project 02 StackView
+### Project 02 StackView
 
 <img src="https://github.com/ChiKuo/swiftTraining/blob/master/Project%20Demo%20Image/Project%2002.gif" width="268">
  
@@ -52,11 +58,11 @@ I learn how to :
 - Launch safari and open URL
 - Use the button with image
 
-##### Project 01 AutoLayout
+### Project 01 AutoLayout
 
 <img src="https://github.com/ChiKuo/swiftTraining/blob/master/Project%20Demo%20Image/Project%2001-1.png" width="268">
  
-<img src="https://github.com/ChiKuo/swiftTraining/blob/master/Project%20Demo%20Image/Project%2001-2.png" width="220">
+<img src="https://github.com/ChiKuo/swiftTraining/blob/master/Project%20Demo%20Image/Project%2001-2.png" width="520">
 
 I learn how to :
 - Build my first iOS app
