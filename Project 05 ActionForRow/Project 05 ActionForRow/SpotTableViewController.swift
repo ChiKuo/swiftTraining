@@ -147,7 +147,7 @@ class SpotTableViewController: UITableViewController {
         let shareAction = UITableViewRowAction(style: .Default, title: "Share", handler: {
             (action,indexPath) -> Void in
             
-            let shartText = "Share !" + self.spotList[indexPath.row]
+            let shartText = "I love " + self.spotList[indexPath.row] 
             if let shartImage = UIImage(named: self.spotImageList[indexPath.row]){
                 
                 let activityViewController = UIActivityViewController(activityItems: [shartText,shartImage], applicationActivities: nil)

@@ -35,38 +35,50 @@
                                     </label>
                                 </subviews>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="gX6-1S-XFl">
-                                <rect key="frame" x="50" y="445" width="500" height="125"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="life" translatesAutoresizingMaskIntoConstraints="NO" id="wsU-cU-uSQ">
+                                <rect key="frame" x="20" y="164" width="560" height="261"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="261" id="tB6-ja-pik"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="jm1-Cd-PcJ">
+                                <rect key="frame" x="140" y="467" width="320" height="100"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5PP-8V-OLN">
-                                        <rect key="frame" x="0.0" y="0.0" width="147" height="125"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="3v2-K7-vxn"/>
+                                            <constraint firstAttribute="width" constant="100" id="gGx-Tt-Hg0"/>
+                                        </constraints>
                                         <state key="normal" image="ic_linkedin"/>
                                         <connections>
                                             <action selector="openLinkedInURL" destination="BYZ-38-t0r" eventType="touchUpInside" id="hXy-rh-goI"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sfW-26-vdZ">
-                                        <rect key="frame" x="177" y="0.0" width="147" height="125"/>
-                                        <state key="normal" title="Button" image="ic_fb"/>
+                                        <rect key="frame" x="110" y="0.0" width="100" height="100"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="100" id="VlC-sb-qZ5"/>
+                                            <constraint firstAttribute="height" constant="100" id="lbh-M0-Y4O"/>
+                                        </constraints>
+                                        <state key="normal" image="ic_fb"/>
                                         <connections>
                                             <action selector="openFacebookURL" destination="BYZ-38-t0r" eventType="touchUpInside" id="P3Z-qv-1Nt"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hc2-bo-uKM">
-                                        <rect key="frame" x="354" y="0.0" width="147" height="125"/>
-                                        <state key="normal" title="Button" image="ic_github"/>
+                                        <rect key="frame" x="220" y="0.0" width="100" height="100"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="100" id="VKB-Yz-EZG"/>
+                                            <constraint firstAttribute="height" constant="100" id="iCH-BW-BVz"/>
+                                        </constraints>
+                                        <state key="normal" image="ic_github"/>
                                         <connections>
                                             <action selector="openGithubURL" destination="BYZ-38-t0r" eventType="touchUpInside" id="kjc-a0-x66"/>
                                         </connections>
                                     </button>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="125" id="Frp-58-s1h"/>
-                                </constraints>
                             </stackView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="life" translatesAutoresizingMaskIntoConstraints="NO" id="wsU-cU-uSQ">
-                                <rect key="frame" x="20" y="164" width="560" height="261"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -74,15 +86,9 @@
                             <constraint firstAttribute="trailingMargin" secondItem="wsU-cU-uSQ" secondAttribute="trailing" id="Umh-Vn-lXs"/>
                             <constraint firstItem="wsU-cU-uSQ" firstAttribute="top" secondItem="r80-TU-Hkb" secondAttribute="bottom" constant="20" id="YPM-V0-QRX"/>
                             <constraint firstItem="wsU-cU-uSQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="ake-1d-9TP"/>
-                            <constraint firstItem="gX6-1S-XFl" firstAttribute="top" secondItem="wsU-cU-uSQ" secondAttribute="bottom" constant="20" id="ctt-s8-XCV">
-                                <variation key="heightClass=regular-widthClass=regular" constant="20"/>
-                            </constraint>
-                            <constraint firstAttribute="trailingMargin" secondItem="gX6-1S-XFl" secondAttribute="trailing" constant="30" id="eFZ-5y-cA4"/>
                             <constraint firstItem="r80-TU-Hkb" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="gnJ-l7-ayC"/>
-                            <constraint firstItem="gX6-1S-XFl" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="vPu-6x-aaK"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="gX6-1S-XFl" secondAttribute="bottom" constant="30" id="zNi-Ko-rBu">
-                                <variation key="heightClass=regular-widthClass=regular" constant="50"/>
-                            </constraint>
+                            <constraint firstItem="jm1-Cd-PcJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kpL-Sd-qsg"/>
+                            <constraint firstItem="jm1-Cd-PcJ" firstAttribute="top" secondItem="wsU-cU-uSQ" secondAttribute="bottom" constant="42" id="wFC-Ie-NCP"/>
                         </constraints>
                     </view>
                 </viewController>
