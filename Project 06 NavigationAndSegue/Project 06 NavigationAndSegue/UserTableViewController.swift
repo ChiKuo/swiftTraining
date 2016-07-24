@@ -27,14 +27,14 @@ class UserTableViewController: UITableViewController {
 
     // MARK: - Table view data source
     
-    var userList : [User] = [User(name:"Jesse Elliott",image: "Jesse Elliott"),
-                             User(name:"Angel Mckenzie",image: "Angel Mckenzie"),
-                             User(name:"Chad Higgins",image: "Chad Higgins"),
-                             User(name:"Edith Lindsey",image: "Edith Lindsey"),
-                             User(name:"Floyd Porter",image: "Floyd Porter"),
-                             User(name:"Nick Lamb",image: "Nick Lamb"),
-                             User(name:"Pat Black",image: "Pat Black"),
-                             User(name:"Richard Bailey",image: "Richard Bailey")]
+    var userList : [User] = [User(name:"Jesse Elliott",image: "Jesse Elliott",location: "California"),
+                             User(name:"Angel Mckenzie",image: "Angel Mckenzie",location: "New York"),
+                             User(name:"Chad Higgins",image: "Chad Higgins",location: "Florida"),
+                             User(name:"Edith Lindsey",image: "Edith Lindsey",location: "Nevada"),
+                             User(name:"Floyd Porter",image: "Floyd Porter",location: "New Mexico"),
+                             User(name:"Nick Lamb",image: "Nick Lamb",location: "Michigan"),
+                             User(name:"Pat Black",image: "Pat Black",location: "California"),
+                             User(name:"Richard Bailey",image: "Richard Bailey",location: "New York")]
     
 
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
@@ -97,14 +97,22 @@ class UserTableViewController: UITableViewController {
     }
     */
 
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+        
+        if segue.identifier == "showUserDetail" {
+            if let indexPath = tableView.indexPathForSelectedRow{
+                
+                let destinationViewController = segue.destinationViewController as! UserDetailViewController
+               
+                destinationViewController.user = userList[indexPath.row]
+            
+            }
+        }
     }
-    */
+ 
 
 }

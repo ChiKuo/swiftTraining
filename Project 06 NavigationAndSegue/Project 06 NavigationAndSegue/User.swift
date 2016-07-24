@@ -12,9 +12,11 @@ class User{
     
     var name = ""
     var image = ""
+    var location = ""
     
-    init(name: String,image: String){
+    init(name: String,image: String,location: String){
         self.name = name
         self.image = image
+        self.location = location
     }
 }

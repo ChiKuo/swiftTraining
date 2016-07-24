@@ -19,5 +19,83 @@
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Project 06 NavigationAndSegue/UserDetailViewController.swift"
+            timestampString = "491039827.30062"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "UserDetailViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Project_06_NavigationAndSegue.UserDetailViewController.user.getter : Swift.ImplicitlyUnwrappedOptional&lt;Project_06_NavigationAndSegue.User&gt;"
+                  moduleName = "Project 06 NavigationAndSegue"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Chi/ios_projects/swiftTraining/Project%2006%20NavigationAndSegue/Project%2006%20NavigationAndSegue/UserDetailViewController.swift"
+                  timestampString = "491039827.403868"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "35">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Project_06_NavigationAndSegue.UserDetailViewController.user.setter : Swift.ImplicitlyUnwrappedOptional&lt;Project_06_NavigationAndSegue.User&gt;"
+                  moduleName = "Project 06 NavigationAndSegue"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Chi/ios_projects/swiftTraining/Project%2006%20NavigationAndSegue/Project%2006%20NavigationAndSegue/UserDetailViewController.swift"
+                  timestampString = "491039827.404008"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "61">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Project_06_NavigationAndSegue.UserDetailViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; Project_06_NavigationAndSegue.UserDetailViewController"
+                  moduleName = "Project 06 NavigationAndSegue"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Chi/ios_projects/swiftTraining/Project%2006%20NavigationAndSegue/Project%2006%20NavigationAndSegue/UserDetailViewController.swift"
+                  timestampString = "491039827.404087"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "138">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Project_06_NavigationAndSegue.UserDetailViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Project_06_NavigationAndSegue.UserDetailViewController&gt;"
+                  moduleName = "Project 06 NavigationAndSegue"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Chi/ios_projects/swiftTraining/Project%2006%20NavigationAndSegue/Project%2006%20NavigationAndSegue/UserDetailViewController.swift"
+                  timestampString = "491039827.404161"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "90">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
